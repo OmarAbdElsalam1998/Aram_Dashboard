@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دورة تدريب المدربين</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+
+    <link rel="stylesheet" href="assets/css/trainers_course.css">
+</head>
+<body >
+     <!-- Start Header -->
+     <section class="header p-3">
+        <div class="container-fluid">
+            <div class=" d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <img class="large_screen" src="assets/images/logo-header.png">
+                    </div>
+                    <div class="welcome-user">
+                        <h3>مرحبا بك يا <span>إبراهيم</span> معنا</h3>
+                    </div>
+                    <div class="search-box">
+                        <form>
+                            <div class="search-input d-none d-md-flex">
+                                <input type="text" placeholder="بحث">
+                                <button>  <img src="assets/images/Icon feather-search.png"></button>
+                            </div>
+
+                        </form>
+                    </div>
+                    
+                    <div class="notification-messages">
+                        <ul>
+                            <li class="d-inline-block d-md-none dropdown notification " data-target="#search"><img loading="lazy" src="assets/images/Icon feather-search.png">
+                                <div class="dropdown-menu" id="search">
+                                    <div class="search-box">
+                                        <form>
+                                            <div class="search-input ">
+                                                <input type="text" placeholder="بحث">
+                                                <button>  <img src="assets/images/Icon feather-search.png"></button>
+                                            </div>
+                
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown notification " data-target="#notification"><img loading="lazy" src="assets/images/notifications.png">
+                                <span class="notification-count">9</span>
+                                <ul class="dropdown-menu" id="notification">
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك اشعار  </span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك اشعار  </span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك اشعار  </span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك اشعار  </span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك اشعار  </span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown notification " data-target="#messages"><img loading="lazy" src="assets/images/messages.png">
+                                <span class="notification-count">3</span>
+                                <ul class="dropdown-menu" id="messages" >
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                                <img src="assets/images/user.png" class="pe-3">
+                                            <div class="">
+                                                <span class="name d-block">لديك رسالة من أحمد</span>
+                                                <span class="date">منذ 7 ساعات</span>
+                                            </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="user d-flex align-items-center dropdown notification " data-target="#user">
+                        <div class="image">
+                            <img loading="lazy" src="assets/images/user.png" class="img-fluid">
+
+                        </div>
+                        <div class="name d-none d-lg-block">
+                            <h3 >Ibrahim Elmalky</h3>
+                        </div>
+                      
+                        <ul class="dropdown-menu" id="user" >
+                            <li>
+                               <div  class="p-3 mb-3">
+                                <a href="">
+                                    <img src="assets/images/users.png" class="img-fluid pe-2" style="width:40px;height: 30px;">
+                                    <span class="name">الملف الشخصي</span>
+                                    
+                                 </a>
+                               </div>
+                            </li>
+                            <li>
+                                <a href="" class="p-3">
+                                    <img src="assets/images/logout.png" class="img-fluid pe-2"style="width:40px;height: 30px;">
+                                    <span class="name"> تسجيل الخروج</span>
+                                    
+                                 </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- End Header -->
+
+
+    <!-- Start aside -->
+    <aside class="main-menu">
+        <div class="expand-aside">
+            <img src="assets/images/angle-right.png">
+        </div>
+        <a  class="option  d-flex align-items-center" href="main.html">
+            <img class="large-aside" src="assets/images/home.png">
+            <h3 class="large-aside">الرئيسية</h3>
+            <img class="small-aside" src="assets/images/home.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="reports.html">
+            <img class="large-aside" src="assets/images/chart-histogram.png">
+            <h3 class="large-aside">التقارير</h3>
+            <img class="small-aside" src="assets/images/chart-histogram.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="courses.html">
+            <img class="large-aside" src="assets/images/layers.png">
+            <h3 class="large-aside">الدورات</h3>
+            <img class="small-aside" src="assets/images/layers.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="supervisors_accounts.html">
+            <img class="large-aside" src="assets/images/users.png">
+            <h3 class="large-aside">إدارة الحسابات</h3>
+            <img class="small-aside" src="assets/images/users.png">
+        </a>
+        <a  class="option active d-flex align-items-center" href="trainers_course.html">
+            <img class="large-aside" src="assets/images/time-fast.png">
+            <h3 class="large-aside">دورات المدربين</h3>
+            <img class="small-aside" src="assets/images/time-fast.png">
+        </a>
+       
+        <a  class="option d-flex align-items-center" href="index.html">
+            <img class="large-aside" src="assets/images/settings-sliders.png">
+            <h3 class="large-aside">إدارة بياناتي</h3>
+            <img class="small-aside" src="assets/images/settings-sliders.png">
+        </a>
+        <a  class="option d-flex align-items-center" href="index.html">
+            <img class="large-aside" src="assets/images/exit.png">
+            <h3 class="large-aside">تسجيل الخروج  </h3>
+            <img class="small-aside" src="assets/images/exit.png">
+        </a>
+    </aside>
+    <!-- End aside -->
+
+
+    <!-- Start page content -->
+    <section class="trainers_course">
+        <div class="container-fluid">
+            <h3 class="p-md-2"><img src="assets/images/header_icon1.png" class="img-fluid pe-3"> دورة تدريب المدربين
+            </h3>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 p-0 px-md-4">
+                    <div class="course-box">
+                        <div class="course-description">
+                            <h4 class="course-heading ">دورة تدريب المدربين</h4>
+                            <div class="course-price">
+                                <span class="price">830 ر.س</span>
+                                <img src="assets/images/_.png" class="px-2">
+                                <span class="price-for">للمدرب الواحد</span>
+                            </div>
+                            <p>يتدرب فيها المشترك على مدى ثلاثة أيام ليحصل بعدها على شهادة معتمدة من المؤسسة العامة للتدريب المهني والتقني بـعدد 15 ساعة تدريبية تؤهله لتطبيق حقائب بناء الشخصية المتكاملة في المحاضن التربوية </p>
+                            <button class="custom-btn">شراء</button>
+                        </div>
+                        <div class="course-standards">
+                            <h4>معايير الترشح للدورة التدريبية :</h4>
+                            <ul>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>المؤهل العلمي " جامعي" أو ما يعادله .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>لديه تجربة سابقة في مجال التعليم أو التدريب .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> العمر لا يقل عن 19 سنة </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>القدرة على الحوار والمرونة العقلية </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>الاستقرار واللياقة النفسية</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>يمتلك التصورات التربوية الجيدة  </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التفاعل مع البيئة والمتدربين</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>روح الإيجابية والإبداع </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التواصل الجيد مع الآخرين </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  لديه مهارة في إدارة الصف</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> الثقة بالنفس. </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  حضور مالا يقل عن ٨٠% من الدورة التدريبية  </span></li>
+
+
+
+                            </ul>
+
+                        </div>
+                        <div class="show-all-standards d-flex align-items-end justify-content-center">
+                            <h4>رؤية جميع الشروط</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4  p-0 px-md-4">
+                    <div class="course-box">
+                        <div class="course-description">
+                            <h4 class="course-heading ">دورة تدريب المدربين</h4>
+                            <div class="course-price">
+                                <span class="price">830 ر.س</span>
+                                <img src="assets/images/_.png" class="px-2">
+                                <span class="price-for">للمدرب الواحد</span>
+                            </div>
+                            <p>يتدرب فيها المشترك على مدى ثلاثة أيام ليحصل بعدها على شهادة معتمدة من المؤسسة العامة للتدريب المهني والتقني بـعدد 15 ساعة تدريبية تؤهله لتطبيق حقائب بناء الشخصية المتكاملة في المحاضن التربوية </p>
+                            <button class="custom-btn">شراء</button>
+                        </div>
+                        <div class="course-standards">
+                            <h4>معايير الترشح للدورة التدريبية :</h4>
+                            <ul>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>المؤهل العلمي " جامعي" أو ما يعادله .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>لديه تجربة سابقة في مجال التعليم أو التدريب .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> العمر لا يقل عن 19 سنة </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>القدرة على الحوار والمرونة العقلية </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>الاستقرار واللياقة النفسية</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>يمتلك التصورات التربوية الجيدة  </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التفاعل مع البيئة والمتدربين</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>روح الإيجابية والإبداع </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التواصل الجيد مع الآخرين </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  لديه مهارة في إدارة الصف</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> الثقة بالنفس. </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  حضور مالا يقل عن ٨٠% من الدورة التدريبية  </span></li>
+
+
+
+                            </ul>
+
+                        </div>
+                        <div class="show-all-standards d-flex align-items-end justify-content-center">
+                            <h4>رؤية جميع الشروط</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4  p-0 px-md-4">
+                    <div class="course-box">
+                        <div class="course-description">
+                            <h4 class="course-heading ">دورة تدريب المدربين</h4>
+                            <div class="course-price">
+                                <span class="price">830 ر.س</span>
+                                <img src="assets/images/_.png" class="px-2">
+                                <span class="price-for">للمدرب الواحد</span>
+                            </div>
+                            <p>يتدرب فيها المشترك على مدى ثلاثة أيام ليحصل بعدها على شهادة معتمدة من المؤسسة العامة للتدريب المهني والتقني بـعدد 15 ساعة تدريبية تؤهله لتطبيق حقائب بناء الشخصية المتكاملة في المحاضن التربوية </p>
+                            <button class="custom-btn">شراء</button>
+                        </div>
+                        <div class="course-standards">
+                            <h4>معايير الترشح للدورة التدريبية :</h4>
+                            <ul>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>المؤهل العلمي " جامعي" أو ما يعادله .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>لديه تجربة سابقة في مجال التعليم أو التدريب .</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> العمر لا يقل عن 19 سنة </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>القدرة على الحوار والمرونة العقلية </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>الاستقرار واللياقة النفسية</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>يمتلك التصورات التربوية الجيدة  </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التفاعل مع البيئة والمتدربين</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>روح الإيجابية والإبداع </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>التواصل الجيد مع الآخرين </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  لديه مهارة في إدارة الصف</span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span> الثقة بالنفس. </span></li>
+                                <li class="d-flex align-items-center"><img src="assets/images/check_icon.png"><span>  حضور مالا يقل عن ٨٠% من الدورة التدريبية  </span></li>
+
+
+
+                            </ul>
+
+                        </div>
+                        <div class="show-all-standards d-flex align-items-end justify-content-center">
+                            <h4>رؤية جميع الشروط</h4>
+                        </div>
+
+                    </div>
+                </div>
+                
+              
+
+           </div>
+        </div>
+    </section>
+
+    <!-- End page content -->
+
+
+<!--<div class="pagination">
+  <ul> pages or li are comes from javascript  </ul>
+</div>-->
+
+<script src="assets/js/jquery3.2.1.min.js"></script>    
+<script src="assets/js/global.js"></script>
+<script src="assets/js/trainers_course.js"></script>
+
+</body>
+</html>

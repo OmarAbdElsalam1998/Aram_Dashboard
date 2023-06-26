@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدورات</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
+</head>
+<body >
+  <!-- Start Header -->
+  <section class="header p-3">
+    <div class="container-fluid">
+        <div class=" d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <img class="large_screen" src="assets/images/logo-header.png">
+                </div>
+                <div class="welcome-user">
+                    <h3>مرحبا بك يا <span>إبراهيم</span> معنا</h3>
+                </div>
+                <div class="search-box">
+                    <form>
+                        <div class="search-input d-none d-md-flex">
+                            <input type="text" placeholder="بحث">
+                            <button>  <img src="assets/images/Icon feather-search.png"></button>
+                        </div>
+
+                    </form>
+                </div>
+                
+                <div class="notification-messages">
+                    <ul>
+                        <li class="d-inline-block d-md-none dropdown notification " data-target="#search"><img loading="lazy" src="assets/images/Icon feather-search.png">
+                            <div class="dropdown-menu" id="search">
+                                <div class="search-box">
+                                    <form>
+                                        <div class="search-input ">
+                                            <input type="text" placeholder="بحث">
+                                            <button>  <img src="assets/images/Icon feather-search.png"></button>
+                                        </div>
+            
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown notification " data-target="#notification"><img loading="lazy" src="assets/images/notifications.png">
+                            <span class="notification-count">9</span>
+                            <ul class="dropdown-menu" id="notification">
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك اشعار  </span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك اشعار  </span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك اشعار  </span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك اشعار  </span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك اشعار  </span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown notification " data-target="#messages"><img loading="lazy" src="assets/images/messages.png">
+                            <span class="notification-count">3</span>
+                            <ul class="dropdown-menu" id="messages" >
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="d-flex align-items-center justify-content-start border-bottom p-2">
+                                            <img src="assets/images/user.png" class="pe-3">
+                                        <div class="">
+                                            <span class="name d-block">لديك رسالة من أحمد</span>
+                                            <span class="date">منذ 7 ساعات</span>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="user d-flex align-items-center dropdown notification " data-target="#user">
+                    <div class="image">
+                        <img loading="lazy" src="assets/images/user.png" class="img-fluid">
+
+                    </div>
+                    <div class="name d-none d-lg-block">
+                        <h3 >Ibrahim Elmalky</h3>
+                    </div>
+                  
+                    <ul class="dropdown-menu" id="user" >
+                        <li>
+                           <div  class="p-3 mb-3">
+                            <a href="">
+                                <img src="assets/images/users.png" class="img-fluid pe-2" style="width:40px;height: 30px;">
+                                <span class="name">الملف الشخصي</span>
+                                
+                             </a>
+                           </div>
+                        </li>
+                        <li>
+                            <a href="" class="p-3">
+                                <img src="assets/images/logout.png" class="img-fluid pe-2"style="width:40px;height: 30px;">
+                                <span class="name"> تسجيل الخروج</span>
+                                
+                             </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Header -->
+
+
+
+    <!-- Start aside -->
+    <aside class="main-menu">
+        <div class="expand-aside">
+            <img src="assets/images/angle-right.png">
+        </div>
+        <a  class="option  d-flex align-items-center" href="main.html">
+            <img class="large-aside" src="assets/images/home.png">
+            <h3 class="large-aside">الرئيسية</h3>
+            <img class="small-aside" src="assets/images/home.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="reports.html">
+            <img class="large-aside" src="assets/images/chart-histogram.png">
+            <h3 class="large-aside">التقارير</h3>
+            <img class="small-aside" src="assets/images/chart-histogram.png">
+        </a>
+        <a  class="option active d-flex align-items-center" href="courses.html">
+            <img class="large-aside" src="assets/images/layers.png">
+            <h3 class="large-aside">الدورات</h3>
+            <img class="small-aside" src="assets/images/layers.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="supervisors_accounts.html">
+            <img class="large-aside" src="assets/images/users.png">
+            <h3 class="large-aside">إدارة الحسابات</h3>
+            <img class="small-aside" src="assets/images/users.png">
+        </a>
+        <a  class="option  d-flex align-items-center" href="trainers_course.html">
+            <img class="large-aside" src="assets/images/time-fast.png">
+            <h3 class="large-aside">دورات المدربين</h3>
+            <img class="small-aside" src="assets/images/time-fast.png">
+        </a>
+       
+        <a  class="option d-flex align-items-center" href="index.html">
+            <img class="large-aside" src="assets/images/settings-sliders.png">
+            <h3 class="large-aside">إدارة بياناتي</h3>
+            <img class="small-aside" src="assets/images/settings-sliders.png">
+        </a>
+        <a  class="option d-flex align-items-center" href="index.html">
+            <img class="large-aside" src="assets/images/exit.png">
+            <h3 class="large-aside">تسجيل الخروج  </h3>
+            <img class="small-aside" src="assets/images/exit.png">
+        </a>
+    </aside>
+    <!-- End aside -->
+
+
+    <!-- Start page content -->
+    <section class="courses">
+        <div class="container-fluid">
+            <div class="d-md-flex align-items-center justify-content-between mb-4">
+                <h3 class=""><img src="assets/images/header_icon1.png" class="me-2">الدورات</h3>
+                <button class="custom-btn trigger" ><img class="pe-2" src="assets/images/pluse.png"><span>اضافة دورات </span></button>
+                <div class="_modal">
+                    <div class="_modal-content">
+                        <div class="_modal-header d-flex align-items-center justify-content-between">
+                            <h1>إضافة الدورات</h1>
+                            <span class="close-button"><img src="assets/images/close.png"></span>
+
+                        </div>
+                        
+                        <form>
+                        <div class="form py-5  px-4">
+                            <div class="d-lg-flex align-items-center  mb-2 ">
+                                <div class="w-100">
+                                    <div class="input-field w-100">
+                                        <label>إسم الدورة </label>
+                                        <input type="text" placeholder="إسم الدورة">
+                                    </div>
+                               </div> 
+                               
+                            </div>
+                            <div class="d-lg-flex align-items-center ">
+                                <div class=" w-100 pe-lg-3">
+                                    <div class="input-field w-100">
+                                        <label>من</label>
+                                        <input type="date" placeholder="من">
+                                    </div>
+                               </div> 
+                               <div class=" w-100 ps-lg-3">
+                                    <div class="input-field w-100">
+                                        <label>إلي  </label>
+                                        <input type="date" placeholder="إلي">
+
+                                    </div>
+                               </div> 
+                            </div>
+                            <div class="d-lg-flex align-items-center  mb-2 ">
+                                <div class="w-100 pe-lg-3">
+                                    <div class="input-field w-100">
+                                        <label>عدد الساعات </label>
+                                        <input type="text" placeholder="عدد الساعات">
+                                    </div>
+                               </div> 
+                               <div class=" w-100 ps-lg-3">
+                                    <div class="input-field w-100">
+                                        <label>المنطقة</label>
+                                        <input type="text" placeholder="المنطقة ">
+
+                                        
+                                    </div>
+                               </div> 
+                            </div>
+                           
+                            <button class="custom-btn">اضافة
+                            </button>
+                        </div>
+                    </form> 
+
+
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="supervisors">
+               <div class="filters d-lg-flex align-items-center border-bottom ">
+                <div class="search-box w-100 pe-lg-3">
+                    <form>
+                        <div class="input-field w-100">
+                            <label>ابحث في حسـابات المشرفين  </label>
+                            <img src="assets/images/Icon feather-search.png" style="padding-left: 5px;">
+                            <input type="text" placeholder="ابحث بالاسم او اي شي أخر">
+                            <button class="search-btn">بحت</button>
+                        </div>
+                    </form>  
+                   </div> 
+                   <div class="filter-selector w-100 ps-lg-3">
+                    <form>
+                        <div class="input-field w-100">
+                            <label>الدور</label>
+                            <select name="drinks" required>
+                                <option value="" disabled selected hidden>إختار الدور من هنا</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        </div>
+                    </form>  
+                   </div> 
+               </div>
+              
+               <div class="table-wrap">
+                <table class="sortable">
+               
+                <thead>
+                  <tr>
+                    <th>
+                        <input type="checkbox">
+
+                    </th>
+                    <th>
+                      <button>
+                        اسم الدورة
+
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </th>
+                    <th aria-sort="ascending">
+                      <button>
+                        من
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </th>
+                    <th>
+                      <button>
+                        إلى
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </th>
+                    <th class="num">
+                        <button>
+                          عدد الساعات
+                          <span aria-hidden="true"></span>
+                        </button>
+                      </th>
+                    <th >
+                      <button>
+                        المنطقة
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </th>
+                    <th >
+                        <button>
+                            الحالة
+                          <span aria-hidden="true"></span>
+                        </button>
+                      </th>
+                      <th class="no-sort">إجراء حدث</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td> تدريب المدربين</td>
+                    <td>2022-12-20</td>
+                    <td>2022-12-22</td>
+                    <td class="num">9</td>
+                    <td >القصيم</td>
+                    <td class="status">مقبولة</td>
+                    <td><a href="">تعديل &nbsp;&nbsp;<img src="assets/images/edit.png"></a></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td> تدريب المدربين</td>
+                    <td>2022-12-20</td>
+                    <td>2022-12-22</td>
+                    <td class="num">15</td>
+                    <td >القصيم</td>
+                    <td class="status">مقبولة</td>
+                    <td><a href="">تعديل &nbsp;&nbsp;<img src="assets/images/edit.png"></a></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td> تدريب المدربين</td>
+                    <td>2022-12-20</td>
+                    <td>2022-12-22</td>
+                    <td class="num">15</td>
+                    <td >القصيم</td>
+                    <td class="status">مقبولة</td>
+                    <td><a href="">تعديل &nbsp;&nbsp;<img src="assets/images/edit.png"></a></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td> تدريب المدربين</td>
+                    <td>2022-12-20</td>
+                    <td>2022-12-22</td>
+                    <td class="num">12</td>
+                    <td >القصيم</td>
+                    <td class="status">مقبولة</td>
+                    <td><a href="">تعديل &nbsp;&nbsp;<img src="assets/images/edit.png"></a></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td> تدريب المدربين</td>
+                    <td>2022-12-20</td>
+                    <td>2022-12-22</td>
+                    <td class="num">13</td>
+                    <td >القصيم</td>
+                    <td class="status">مقبولة</td>
+                    <td><a href="">تعديل &nbsp;&nbsp;<img src="assets/images/edit.png"></a></td>
+                  </tr> 
+                </tbody>
+              </table>
+            </div>
+                      
+               <div class="pagination" data-numberOfPages="10">
+                <ul><!-- pages or li are comes from javascript --> </ul>
+              </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- End page content -->
+
+
+
+
+    <script src="assets/js/jquery3.2.1.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/courses.js"></script>
+
+</body>
+</html>
