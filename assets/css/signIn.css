@@ -6,9 +6,7 @@ body{
     font-family: "DIN Next LT Arabic";
         height: 100vh;
 }
-.sign-in .form-box{
-    padding: 50px;
-}
+
 .sign-in .form-box h2{
     
     font-size: 36px;
