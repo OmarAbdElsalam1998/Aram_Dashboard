@@ -200,6 +200,27 @@ body{
     text-align: right;
     color: #203b54;
 }
+
+@media(max-width:399px){
+    .main-content .certifications #canvas11,
+    .main-content .certifications #canvas21{
+        display: none;
+    }
+    .main-content .certifications #canvas12,
+    .main-content .certifications #canvas22{
+        display: block;
+    }
+}
+@media(min-width:399px){
+    .main-content .certifications #canvas11,
+    .main-content .certifications #canvas21{
+        display: block;
+    }
+    .main-content .certifications #canvas12,
+    .main-content .certifications #canvas22{
+        display: none;
+    }
+}
 .main-content .analysis .content-box{
     padding: 15px;
     border:1px solid #eaedf7;

@@ -339,7 +339,7 @@ input[type=checkbox] {
 
 }
 
-@media (max-width:500px) {
+@media (max-width:991px) {
     .toggle .header .logo {
         width:55px;
         overflow: hidden;
@@ -604,7 +604,7 @@ margin: 0;
 /* Start main menu aside */
 aside.main-menu{
     position: fixed;
-    top: 97px;
+    top: 95px;
     right: 0;
     width: 300px;
     height: calc(100% - 95px);
@@ -719,23 +719,37 @@ aside.main-menu .option h3{
         margin-right: 100px;
     }
    
-    .toggle aside.main-menu{
+     aside.main-menu{
         width: 100px;
         padding: 70px 14px;
 
 
     }
-    .toggle aside.main-menu .option{
+    .toggle aside.main-menu{
+        width: 300px;
+    }
+     aside.main-menu .option{
         padding: 25px;
         text-align: center;
     }
+    .toggle .main-menu .option{
+        padding: 10px 20px;
+
+    }
+    aside.main-menu .option .large-aside{
+        display: none;
+    }
+     aside.main-menu .option .small-aside{
+        display: block;
+    }
+    .toggle aside.main-menu .option .large-aside{
+        display: block;
+    }
+    .toggle aside.main-menu .option .small-aside{
+        display: none;
+    }
 }
-aside.main-menu .large-aside{
-    display: none;
-}
-.toggle aside.main-menu .large-aside{
-    display: block;
-}
+
 @media (min-width:992px) {
     .toggle{
         margin-right: 100px;
