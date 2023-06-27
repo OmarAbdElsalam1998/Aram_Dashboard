@@ -114,6 +114,10 @@ background: #d8dae5
 .supervisors-accounts .supervisors .supervisors-list .supervisor-box  .supervisor-info{
     padding: 10px;
 }
+.supervisors-accounts .supervisors .supervisors-list .supervisor-box  .supervisor-info img{
+width: 20px;
+height: 20px;
+}
 .supervisors-accounts .supervisors .supervisors-list .supervisor-box  .supervisor-info .head{
     font-family: "DIN Next LT Arabic";
     font-size: 11px;
